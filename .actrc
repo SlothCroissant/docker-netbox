@@ -1,0 +1,5 @@
+-P self-hosted=cr.ryanb.tv/ghcr-proxy/catthehacker/ubuntu:act-latest
+--container-architecture linux/amd64
+-e .act-event.json
+--bind
+# export GITHUB_WORKSPACE=$(pwd)
