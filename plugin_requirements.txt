@@ -1,1 +1,2 @@
 netbox-plugin-prometheus-sd
+netbox-bgp
