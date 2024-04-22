@@ -1,4 +1,4 @@
-FROM netboxcommunity/netbox:latest
+FROM netboxcommunity/netbox:v3.7.5-2.8.0
 
 COPY ./plugin_requirements.txt /opt/netbox/
 RUN /opt/netbox/venv/bin/pip install  --no-warn-script-location -r /opt/netbox/plugin_requirements.txt
