@@ -1,3 +1,2 @@
 netbox-plugin-prometheus-sd
-netbox-bgp==0.17.0
-netboxlabs-diode-netbox-plugin
+netbox-bgp==0.18.0
