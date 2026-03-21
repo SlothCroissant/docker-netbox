@@ -7,7 +7,6 @@ from os import environ
 # See https://github.com/netbox-community/netbox-docker/wiki/Using-Netbox-Plugins
 
 PLUGINS = [
-    'netbox_prometheus_sd',
     'netbox_bgp',
 ]
 
